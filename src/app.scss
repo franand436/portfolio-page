@@ -5,12 +5,12 @@
     .sections{
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: bisque;
         position: relative;
         top: 70px;
-        scroll-snap-type: y mandatory;
-        scrollbar-width: none;
-        &::-webkit-scrollbar{
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;  //not working yet, logo simply flashes back to intro page. 
+        scrollbar-width: none;  //Only applies to Firefox
+        &::-webkit-scrollbar{   //Applies to chromium browsers
             display: none;
         }
 
