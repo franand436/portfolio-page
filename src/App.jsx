@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="app">
       <Topbar/>
-      Hello world!🌎
       <div className="sections">
         <Intro/>
         <Portfolio/>
