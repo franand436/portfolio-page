@@ -7,8 +7,8 @@
         height: calc(100vh - 70px);
         position: relative;
         top: 70px;
-        scroll-behavior: smooth;
-        scroll-snap-type: y mandatory;  //not working yet, logo simply flashes back to intro page. 
+        scroll-behavior: smooth;    //Silly me, it was working but I had animation effects off on my machine.
+        scroll-snap-type: y mandatory;
         scrollbar-width: none;  //Only applies to Firefox
         &::-webkit-scrollbar{   //Applies to chromium browsers
             display: none;
